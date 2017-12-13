@@ -1,0 +1,309 @@
+/*@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";*/
+h1,
+h2,
+h3{
+    padding:0px 3px;
+    color: black;
+}
+
+.nav p,
+.nav blockquote {
+    padding: 1px 3px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.nav a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: underline;
+}
+.nav a:hover {
+    color: #ffffff;
+}
+
+
+/*-------------------------------*/
+/*     Sidebar nav styles        */
+/*-------------------------------*/
+#side_row{
+    margin-top: 20px;
+    padding-top: 20px;
+    /*top:20px;*/
+}
+
+
+#page-content-wrapper {
+    padding-left: 5px;
+    margin-top: 10px;
+    /*width: 100%;*/
+}
+.sidebar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    /*width: 220px;*/
+}
+.sidebar-nav li {
+    text-align: center;
+    display: inline-block;
+    line-height: 20px;
+    position: relative;
+    /*width: 100%;*/
+}
+
+.sidebar-nav li:before {
+    background-color: #1c1c1c;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    /*-webkit-transition: width 0.2s ease-in;*/
+    /*transition: width 0.2s ease-in;*/
+    /*!*width: 3px;*!*/
+    /*z-index: -1;*/
+}
+.sidebar-nav li:first-child a {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+.sidebar-nav li:nth-child(2):hover ,
+.sidebar-nav li:nth-child(2):active ,
+.sidebar-nav li:nth-child(2):focus{
+    background-color: #4c366d;
+}
+.sidebar-nav li:nth-child(3):hover ,
+.sidebar-nav li:nth-child(3):active ,
+.sidebar-nav li:nth-child(3):focus {
+    background-color: #4c366d;
+}
+.sidebar-nav li:nth-child(4):hover,
+.sidebar-nav li:nth-child(4):focus,
+.sidebar-nav li:nth-child(4):active{
+    background-color: #4c366d;
+}
+.sidebar-nav li:nth-child(5):hover,
+.sidebar-nav li:nth-child(5):focus,
+.sidebar-nav li:nth-child(5):active {
+    background-color: #4c366d;
+}
+.sidebar-nav li:nth-child(6):hover ,
+.sidebar-nav li:nth-child(6):focus ,
+.sidebar-nav li:nth-child(6):active {
+    background-color: #4c366d;
+}
+.sidebar-nav li:nth-child(7):hover ,
+.sidebar-nav li:nth-child(7):focus ,
+.sidebar-nav li:nth-child(7):active{
+    background-color: #4c366d;
+}
+.sidebar-nav li:nth-child(8):hover,
+.sidebar-nav li:nth-child(8):focus,
+.sidebar-nav li:nth-child(8):active {
+    background-color: #4c366d;
+}
+.sidebar-nav li:nth-child(9):hover ,
+.sidebar-nav li:nth-child(9):focus ,
+.sidebar-nav li:nth-child(9):active {
+    background-color: #4c366d;
+}
+.sidebar-nav li:nth-child(10):hover ,
+.sidebar-nav li:nth-child(10):focus ,
+.sidebar-nav li:nth-child(10):active {
+    background-color: #4c366d;
+}
+
+.sidebar-nav li a {
+    color: white;
+    display: block;
+    padding: 10px 15px 10px 30px;
+    text-decoration: none;
+}
+.sidebar-nav li.open:hover before {
+    -webkit-transition: width 0.2s ease-in;
+    transition: width 0.2s ease-in;
+    width: 100%;
+}
+.sidebar-nav .dropdown-menu {
+    background-color: #222222;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.sidebar-nav li a:hover,
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus,
+.sidebar-nav li.open a:hover,
+.sidebar-nav li.open a:active,
+.sidebar-nav li.open a:focus
+{
+    background-color: transparent;
+    /*color: #ffffff;*/
+    /*color: #8a6cb6;*/
+    color: #2aabd2;
+    text-decoration: none;
+}
+
+/*------------------------------------*/
+/*      Sidebar nav styles end        */
+/*------------------------------------*/
+
+
+
+/*====================================================*/
+/*====================CreateNotes======================*/
+/*====================================================*/
+.create-page{
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+.create-menu{
+
+}
+
+.note-content{
+    height: 680px;
+    /*background-color: #8a6cb6;*/
+}
+
+/*创建新的笔记本*/
+.create-btn{
+    height: 30px;
+    margin-top: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+}
+
+#createblock{
+    border: 5px;
+    border-left-color: #3c3c3c;
+    border-right-color:#3c3c3c ;
+}
+
+
+
+#createblock span,
+#createblock a{
+    -ms-text-align-last: left;
+    text-align-last: left;
+    font-family: Dialog;
+}
+
+#createblock a ,
+#createblock ul ,
+#createblock li {
+    width: 100%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+#createblock a:hover {
+    color: #2ab27b;
+}
+
+#createblock label
+{
+    text-align: center;
+    width: 100%;
+    border-bottom-color: #2ab27b;
+}
+
+#createblock>.dropdown{
+    background-color: #2ab27b;
+}
+#summernote p,
+#summernote a,
+#summernote i{
+    color: black;
+}
+
+.chooselabel{
+    text-align: left;
+}
+
+/*创建新的笔记本👆*/
+
+/*============================================================*/
+/*                          展示笔记👇                        */
+
+.presentationdiv{
+    background-color: white;
+    opacity: 2;
+}
+
+
+
+/*#summernote_p{*/
+    /*height: 200px;*/
+    /*width: 200px;*/
+/*}*/
+
+/*                         展示笔记👆                        */
+/*============================================================*/
+
+/*===========================================================*/
+/*                      修改笔记本部分                       */
+/*===========================================================*/
+#myTabContent h1,
+#myTabContent h2,
+#myTabContent h3{
+    padding:0px 3px;
+    color: white;
+}
+#myTabContent a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+#myTabContent a:hover {
+    color: #2aabd2;
+    text-decoration: none;
+}
+
+#myTab a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+#myTab a :hover {
+    color: #2aabd2;
+    text-decoration: none;
+}
+/*===========================================================*/
+/*                      修改笔记本部分                       */
+/*===========================================================*/
+
+
+
+/*===========================================================*/
+/*                        好友列表                           */
+/*===========================================================*/
+
+
+/*===========================================================*/
+/*                        好友列表                           */
+/*===========================================================*/
+
+
+
+
+/*===========================================================*/
+/*                        个人主页                           */
+/*===========================================================*/
+.infoform{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/*===========================================================*/
+/*                        个人主页                          */
+/*===========================================================*/
+
